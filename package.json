@@ -1,0 +1,19 @@
+{
+  "name": "googleapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.76.0",
+    "aws-sdk": "^2.1120.0",
+    "dotenv": "^16.0.0",
+    "google-search-results-nodejs": "^2.1.0"
+  }
+}
